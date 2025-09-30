@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="processGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dbeafe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#93c5fd;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="decisionGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fed7aa;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#fb923c;stop-opacity:0.8" />
+    </linearGradient>
+    <filter id="flowShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000025"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="800" fill="#fefefe"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#1e293b">医美消费完整决策流程</text>
+  
+  <!-- Start -->
+  <g transform="translate(350, 60)">
+    <ellipse cx="50" cy="25" rx="45" ry="20" fill="#dcfce7" stroke="#22c55e" stroke-width="2" filter="url(#flowShadow)"/>
+    <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#15803d">开始</text>
+    <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">产生想法</text>
+  </g>
+  
+  <!-- Step 1: Trigger -->
+  <g transform="translate(300, 120)">
+    <rect x="0" y="0" width="150" height="60" rx="8" fill="url(#processGradient)" stroke="#3b82f6" stroke-width="2" filter="url(#flowShadow)"/>
+    <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1d4ed8">触发阶段</text>
+    <text x="75" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 外貌不满</text>
+    <text x="75" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 社会比较</text>
+  </g>
+  
+  <!-- Decision Diamond 1 -->
+  <g transform="translate(350, 220)">
+    <polygon points="50,0 100,25 50,50 0,25" fill="url(#decisionGradient)" stroke="#ea580c" stroke-width="2" filter="url(#flowShadow)"/>
+    <text x="50" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9a3412">动机纯正？</text>
+  </g>
+  
+  <!-- No Path 1 -->
+  <g transform="translate(150, 200)">
+    <rect x="0" y="0" width="120" height="50" rx="8" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#dc2626">自我探索</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">重新审视动机</text>
+  </g>
+  
+  <!-- Step 2: Information Collection -->
+  <g transform="translate(300, 320)">
+    <rect x="0" y="0" width="150" height="60" rx="8" fill="url(#processGradient)" stroke="#3b82f6" stroke-width="2" filter="url(#flowShadow)"/>
+    <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1d4ed8">信息收集</text>
+    <text x="75" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 多渠道搜索</text>
+    <text x="75" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 验证真实性</text>
+  </g>
+  
+  <!-- Decision Diamond 2 -->
+  <g transform="translate(350, 420)">
+    <polygon points="50,0 100,25 50,50 0,25" fill="url(#decisionGradient)" stroke="#ea580c" stroke-width="2" filter="url(#flowShadow)"/>
+    <text x="50" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9a3412">信息充分？</text>
+  </g>
+  
+  <!-- No Path 2 -->
+  <g transform="translate(530, 400)">
+    <rect x="0" y="0" width="120" height="50" rx="8" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#dc2626">继续收集</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">补充信息</text>
+  </g>
+  
+  <!-- Step 3: Consultation -->
+  <g transform="translate(300, 520)">
+    <rect x="0" y="0" width="150" height="60" rx="8" fill="url(#processGradient)" stroke="#3b82f6" stroke-width="2" filter="url(#flowShadow)"/>
+    <text x="75" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1d4ed8">专业咨询</text>
+    <text x="75" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 多方咨询</text>
+    <text x="75" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 风险评估</text>
+  </g>
+  
+  <!-- Decision Diamond 3 -->
+  <g transform="translate(350, 620)">
+    <polygon points="50,0 100,25 50,50 0,25" fill="url(#decisionGradient)" stroke="#ea580c" stroke-width="2" filter="url(#flowShadow)"/>
+    <text x="50" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9a3412">风险可接受？</text>
+  </g>
+  
+  <!-- No Path 3 -->
+  <g transform="translate(150, 600)">
+    <rect x="0" y="0" width="120" height="50" rx="8" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#dc2626">重新评估</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">调整方案</text>
+  </g>
+  
+  <!-- Step 4: Cooling Period -->
+  <g transform="translate(500, 520)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" filter="url(#flowShadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#92400e">冷静期</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">72小时</text>
+    <text x="60" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">深度思考</text>
+  </g>
+  
+  <!-- Final Decision -->
+  <g transform="translate(550, 620)">
+    <polygon points="50,0 100,25 50,50 0,25" fill="url(#decisionGradient)" stroke="#ea580c" stroke-width="2" filter="url(#flowShadow)"/>
+    <text x="50" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9a3412">最终决定？</text>
+  </g>
+  
+  <!-- Execute -->
+  <g transform="translate(650, 520)">
+    <rect x="0" y="0" width="100" height="50" rx="8" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+    <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#15803d">执行</text>
+    <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">进行医美</text>
+  </g>
+  
+  <!-- Cancel -->
+  <g transform="translate(650, 650)">
+    <rect x="0" y="0" width="100" height="50" rx="8" fill="#fecaca" stroke="#ef4444" stroke-width="2"/>
+    <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#dc2626">取消</text>
+    <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">暂不进行</text>
+  </g>
+  
+  <!-- Post-procedure -->
+  <g transform="translate(650, 420)">
+    <rect x="0" y="0" width="100" height="80" rx="8" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="50" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#7c3aed">术后管理</text>
+    <text x="50" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">• 恢复护理</text>
+    <text x="50" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">• 心理调适</text>
+    <text x="50" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">• 效果评估</text>
+  </g>
+  
+  <!-- Flow Arrows -->
+  <g stroke="#64748b" stroke-width="2" fill="none" marker-end="url(#flowArrow)">
+    <!-- Main flow -->
+    <line x1="400" y1="85" x2="375" y2="120"/>
+    <line x1="375" y1="180" x2="375" y2="220"/>
+    <line x1="375" y1="270" x2="375" y2="320"/>
+    <line x1="375" y1="380" x2="375" y2="420"/>
+    <line x1="375" y1="470" x2="375" y2="520"/>
+    <line x1="375" y1="580" x2="375" y2="620"/>
+    <line x1="450" y1="645" x2="500" y2="580"/>
+    <line x1="560" y1="580" x2="560" y2="620"/>
+    <line x1="700" y1="570" x2="700" y2="420"/>
+    
+    <!-- No paths -->
+    <line x1="350" y1="245" x2="270" y2="225"/>
+    <line x1="450" y1="445" x2="530" y2="425"/>
+    <line x1="350" y1="645" x2="270" y2="625"/>
+    
+    <!-- Decision paths -->
+    <line x1="600" y1="645" x2="650" y2="675"/>
+    <line x1="600" y1="620" x2="650" y2="545"/>
+  </g>
+  
+  <!-- Arrow Marker -->
+  <defs>
+    <marker id="flowArrow" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <!-- Labels -->
+  <text x="280" y="240" font-family="Arial, sans-serif" font-size="9" fill="#dc2626">否</text>
+  <text x="390" y="240" font-family="Arial, sans-serif" font-size="9" fill="#22c55e">是</text>
+  <text x="480" y="440" font-family="Arial, sans-serif" font-size="9" fill="#dc2626">否</text>
+  <text x="390" y="440" font-family="Arial, sans-serif" font-size="9" fill="#22c55e">是</text>
+  <text x="280" y="640" font-family="Arial, sans-serif" font-size="9" fill="#dc2626">否</text>
+  <text x="390" y="640" font-family="Arial, sans-serif" font-size="9" fill="#22c55e">是</text>
+  <text x="620" y="635" font-family="Arial, sans-serif" font-size="9" fill="#22c55e">是</text>
+  <text x="620" y="665" font-family="Arial, sans-serif" font-size="9" fill="#dc2626">否</text>
+  
+  <!-- Side Information -->
+  <g transform="translate(50, 120)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">关键检查点：</text>
+    <rect x="0" y="10" width="180" height="200" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+    
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#475569">1. 动机检查</text>
+    <text x="15" y="45" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 内在vs外在动机</text>
+    <text x="15" y="58" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 持续时间评估</text>
+    
+    <text x="10" y="80" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#475569">2. 信息验证</text>
+    <text x="15" y="95" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 多渠道对比</text>
+    <text x="15" y="108" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 权威性确认</text>
+    
+    <text x="10" y="130" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#475569">3. 风险评估</text>
+    <text x="15" y="145" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 个人风险因子</text>
+    <text x="15" y="158" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 承受能力评估</text>
+    
+    <text x="10" y="180" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#475569">4. 冷静思考</text>
+    <text x="15" y="195" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 72小时冷静期</text>
+    <text x="15" y="208" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 外部意见征询</text>
+  </g>
+  
+  <!-- Time Indicators -->
+  <g transform="translate(50, 350)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">时间建议：</text>
+    <rect x="0" y="10" width="180" height="120" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="1"/>
+    
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="10" fill="#92400e" font-weight="bold">总时间：4-8周</text>
+    <text x="10" y="50" font-family="Arial, sans-serif" font-size="9" fill="#64748b">信息收集：1-2周</text>
+    <text x="10" y="65" font-family="Arial, sans-serif" font-size="9" fill="#64748b">专业咨询：1-2周</text>
+    <text x="10" y="80" font-family="Arial, sans-serif" font-size="9" fill="#64748b">冷静思考：3-7天</text>
+    <text x="10" y="95" font-family="Arial, sans-serif" font-size="9" fill="#64748b">最终决策：1-3天</text>
+    <text x="10" y="115" font-family="Arial, sans-serif" font-size="9" fill="#dc2626" font-weight="bold">⚠️ 避免冲动决策</text>
+  </g>
+  
+  <!-- Success Factors -->
+  <g transform="translate(50, 500)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#22c55e">成功要素：</text>
+    <rect x="0" y="10" width="180" height="100" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="1"/>
+    
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="9" fill="#15803d">✓ 充分的信息收集</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="9" fill="#15803d">✓ 多方专业咨询</text>
+    <text x="10" y="60" font-family="Arial, sans-serif" font-size="9" fill="#15803d">✓ 现实的期望设定</text>
+    <text x="10" y="75" font-family="Arial, sans-serif" font-size="9" fill="#15803d">✓ 充足的准备时间</text>
+    <text x="10" y="90" font-family="Arial, sans-serif" font-size="9" fill="#15803d">✓ 完善的支持系统</text>
+  </g>
+  
+  <!-- Feedback Loop -->
+  <g stroke="#8b5cf6" stroke-width="2" stroke-dasharray="5,5" fill="none">
+    <path d="M650 420 Q500 350 300 400 Q200 450 200 550 Q200 650 300 700 Q400 750 500 700"/>
+  </g>
+  <text x="350" y="750" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8b5cf6" font-weight="bold">经验反馈循环</text>
+</svg>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="centerBias" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.4" />
+    </radialGradient>
+    <linearGradient id="biasGradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ec4899;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#be185d;stop-opacity:0.6" />
+    </linearGradient>
+    <linearGradient id="biasGradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#1d4ed8;stop-opacity:0.6" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fefefe"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b">医美消费中的认知偏误轮盘</text>
+  
+  <!-- Central Hub -->
+  <g transform="translate(350, 250)">
+    <circle cx="50" cy="50" r="50" fill="url(#centerBias)" stroke="#f59e0b" stroke-width="3"/>
+    <text x="50" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#92400e">认知偏误</text>
+    <text x="50" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">Cognitive</text>
+    <text x="50" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">Biases</text>
+  </g>
+  
+  <!-- Halo Effect -->
+  <g transform="translate(150, 100)">
+    <circle cx="40" cy="40" r="35" fill="#fce7f3" stroke="#ec4899" stroke-width="2"/>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#be185d">✨</text>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#be185d">光环效应</text>
+    <rect x="-10" y="90" width="100" height="70" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="1"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">外表好看=</text>
+    <text x="40" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">能力强</text>
+    <text x="40" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">人品好</text>
+    <text x="40" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#64748b">影响：过度投资外表</text>
+  </g>
+  
+  <!-- Confirmation Bias -->
+  <g transform="translate(550, 100)">
+    <circle cx="40" cy="40" r="35" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">🔍</text>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1d4ed8">确认偏见</text>
+    <rect x="-10" y="90" width="100" height="70" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">只看成功</text>
+    <text x="40" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">案例</text>
+    <text x="40" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">忽视风险</text>
+    <text x="40" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#64748b">影响：低估风险</text>
+  </g>
+  
+  <!-- Availability Heuristic -->
+  <g transform="translate(150, 400)">
+    <circle cx="40" cy="40" r="35" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#15803d">📺</text>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#15803d">可用性启发</text>
+    <rect x="-10" y="90" width="100" height="70" rx="8" fill="#dcfce7" stroke="#22c55e" stroke-width="1"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">媒体案例</text>
+    <text x="40" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">印象深刻</text>
+    <text x="40" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">高估概率</text>
+    <text x="40" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#64748b">影响：过度乐观</text>
+  </g>
+  
+  <!-- Loss Aversion -->
+  <g transform="translate(550, 400)">
+    <circle cx="40" cy="40" r="35" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#7c3aed">⚖️</text>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7c3aed">损失厌恶</text>
+    <rect x="-10" y="90" width="100" height="70" rx="8" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="1"/>
+    <text x="40" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">"青春流逝"</text>
+    <text x="40" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">恐惧感</text>
+    <text x="40" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">急于行动</text>
+    <text x="40" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#64748b">影响：冲动决策</text>
+  </g>
+  
+  <!-- Anchoring Effect -->
+  <g transform="translate(300, 80)">
+    <ellipse cx="50" cy="30" rx="45" ry="25" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/>
+    <text x="50" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c2410c">锚定效应</text>
+    <text x="50" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">首次价格印象深刻</text>
+  </g>
+  
+  <!-- Social Proof -->
+  <g transform="translate(300, 470)">
+    <ellipse cx="50" cy="30" rx="45" ry="25" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+    <text x="50" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">社会认同</text>
+    <text x="50" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">"大家都在做"</text>
+  </g>
+  
+  <!-- Sunk Cost Fallacy -->
+  <g transform="translate(100, 250)">
+    <ellipse cx="40" cy="40" rx="35" ry="30" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#15803d">沉没成本</text>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">已投入难放弃</text>
+  </g>
+  
+  <!-- Overconfidence -->
+  <g transform="translate(600, 250)">
+    <ellipse cx="40" cy="40" rx="35" ry="30" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+    <text x="40" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#d97706">过度自信</text>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">低估风险</text>
+  </g>
+  
+  <!-- Connection Lines -->
+  <g stroke="#94a3b8" stroke-width="2" stroke-dasharray="3,3" fill="none">
+    <line x1="220" y1="150" x2="350" y2="250"/>
+    <line x1="580" y1="150" x2="450" y2="250"/>
+    <line x1="220" y1="450" x2="350" y2="350"/>
+    <line x1="580" y1="450" x2="450" y2="350"/>
+    <line x1="345" y1="110" x2="380" y2="200"/>
+    <line x1="345" y1="500" x2="380" y2="350"/>
+    <line x1="135" y1="280" x2="350" y2="280"/>
+    <line x1="635" y1="280" x2="450" y2="280"/>
+  </g>
+  
+  <!-- Impact Severity Scale -->
+  <g transform="translate(50, 50)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">影响程度：</text>
+    <g transform="translate(0, 20)">
+      <circle cx="5" cy="5" r="4" fill="#ef4444"/>
+      <text x="15" y="10" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">高风险偏误</text>
+    </g>
+    <g transform="translate(0, 35)">
+      <circle cx="5" cy="5" r="4" fill="#f59e0b"/>
+      <text x="15" y="10" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">中等风险偏误</text>
+    </g>
+    <g transform="translate(0, 50)">
+      <circle cx="5" cy="5" r="4" fill="#22c55e"/>
+      <text x="15" y="10" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">低风险偏误</text>
+    </g>
+  </g>
+  
+  <!-- Bias Interaction Matrix -->
+  <g transform="translate(500, 520)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">偏误叠加效应：</text>
+    <rect x="0" y="10" width="250" height="60" rx="8" fill="#fef2f2" stroke="#ef4444" stroke-width="1"/>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="10" fill="#dc2626" font-weight="bold">⚠️ 多重偏误同时作用时风险倍增</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="9" fill="#64748b">例：光环效应 + 确认偏见 + 社会认同</text>
+    <text x="10" y="60" font-family="Arial, sans-serif" font-size="9" fill="#64748b">= 极高的非理性决策风险</text>
+  </g>
+  
+  <!-- Prevention Strategies -->
+  <g transform="translate(50, 520)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">预防策略：</text>
+    <rect x="0" y="10" width="200" height="60" rx="8" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="10" fill="#0284c7" font-weight="bold">🛡️ 认知偏误防护措施</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 多方信息收集</text>
+    <text x="10" y="60" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 72小时冷静期</text>
+  </g>
+  
+  <!-- Decision Quality Indicator -->
+  <g transform="translate(300, 520)">
+    <rect x="0" y="0" width="150" height="20" rx="10" fill="#e5e7eb"/>
+    <rect x="0" y="0" width="45" height="20" rx="10" fill="#ef4444"/>
+    <text x="75" y="15" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">决策质量</text>
+    <text x="75" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#64748b">偏误越多，质量越低</text>
+  </g>
+</svg>

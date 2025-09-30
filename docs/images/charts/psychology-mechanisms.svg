@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ddd6fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a78bfa;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="neuronGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:0.3" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fefefe"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b">医美消费的心理机制图</text>
+  
+  <!-- Central Brain -->
+  <g transform="translate(350, 250)">
+    <ellipse cx="50" cy="50" rx="60" ry="45" fill="url(#brainGradient)" stroke="#6366f1" stroke-width="2"/>
+    <path d="M20 40 Q30 30 40 40 Q50 30 60 40 Q70 50 60 60 Q50 70 40 60 Q30 70 20 60 Q10 50 20 40" fill="#6366f1" opacity="0.6"/>
+    <text x="50" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">决策中枢</text>
+  </g>
+  
+  <!-- System 1: 直觉系统 -->
+  <g transform="translate(100, 150)">
+    <circle cx="40" cy="40" r="35" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+    <text x="40" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#d97706">⚡</text>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#92400e">系统1</text>
+    <text x="40" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">直觉系统</text>
+    <text x="40" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">快速、情绪化</text>
+  </g>
+  
+  <!-- System 2: 理性系统 -->
+  <g transform="translate(620, 150)">
+    <circle cx="40" cy="40" r="35" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+    <text x="40" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#1d4ed8">🤔</text>
+    <text x="40" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#1e40af">系统2</text>
+    <text x="40" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">理性系统</text>
+    <text x="40" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">缓慢、需努力</text>
+  </g>
+  
+  <!-- Social Comparison -->
+  <g transform="translate(150, 350)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#fce7f3" stroke="#ec4899" stroke-width="2"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#be185d">社会比较</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">向上比较</text>
+    <text x="60" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">向下比较</text>
+  </g>
+  
+  <!-- Cognitive Bias -->
+  <g transform="translate(530, 350)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#fef7cd" stroke="#eab308" stroke-width="2"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#a16207">认知偏误</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">光环效应</text>
+    <text x="60" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">确认偏见</text>
+  </g>
+  
+  <!-- Marketing Influence -->
+  <g transform="translate(300, 450)">
+    <rect x="0" y="0" width="120" height="60" rx="8" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#15803d">营销影响</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">稀缺性</text>
+    <text x="60" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">权威效应</text>
+  </g>
+  
+  <!-- Body Image -->
+  <g transform="translate(340, 80)">
+    <ellipse cx="60" cy="30" rx="50" ry="25" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4338ca">身体意象</text>
+    <text x="60" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">自我认知</text>
+    <text x="60" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">理想自我</text>
+  </g>
+  
+  <!-- Connection Lines with Arrows -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+  
+  <!-- Connections -->
+  <line x1="175" y1="190" x2="350" y2="270" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="625" y1="190" x2="450" y2="270" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="210" y1="350" x2="370" y2="320" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="590" y1="350" x2="430" y2="320" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="360" y1="450" x2="400" y2="350" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="400" y1="110" x2="400" y2="250" stroke="#64748b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Neural Network Pattern -->
+  <g opacity="0.3">
+    <circle cx="200" cy="100" r="3" fill="url(#neuronGradient)"/>
+    <circle cx="250" cy="120" r="3" fill="url(#neuronGradient)"/>
+    <circle cx="300" cy="140" r="3" fill="url(#neuronGradient)"/>
+    <circle cx="500" cy="100" r="3" fill="url(#neuronGradient)"/>
+    <circle cx="550" cy="120" r="3" fill="url(#neuronGradient)"/>
+    <circle cx="600" cy="140" r="3" fill="url(#neuronGradient)"/>
+    <line x1="200" y1="100" x2="250" y2="120" stroke="#f59e0b" stroke-width="1"/>
+    <line x1="250" y1="120" x2="300" y2="140" stroke="#f59e0b" stroke-width="1"/>
+    <line x1="500" y1="100" x2="550" y2="120" stroke="#f59e0b" stroke-width="1"/>
+    <line x1="550" y1="120" x2="600" y2="140" stroke="#f59e0b" stroke-width="1"/>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(50, 520)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">图例说明：</text>
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="10" fill="#64748b">箭头表示影响方向，虚线表示神经连接模式</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="10" fill="#64748b">颜色区分不同心理机制类型</text>
+  </g>
+</svg>

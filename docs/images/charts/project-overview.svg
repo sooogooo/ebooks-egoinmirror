@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f8fafc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f1f5f9;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bgGradient)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e293b">医美消费心理学 - 项目结构图</text>
+  
+  <!-- Central Brain Icon -->
+  <g transform="translate(350, 250)">
+    <circle cx="50" cy="50" r="45" fill="#e0e7ff" stroke="#6366f1" stroke-width="2"/>
+    <path d="M25 35 Q35 25 45 35 Q55 25 65 35 Q75 45 65 55 Q55 65 45 55 Q35 65 25 55 Q15 45 25 35" fill="#6366f1" opacity="0.7"/>
+    <text x="50" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">心理机制</text>
+  </g>
+  
+  <!-- Part 1: 美丽的渴望 -->
+  <g transform="translate(50, 100)">
+    <rect x="0" y="0" width="140" height="80" rx="8" fill="url(#cardGradient)" stroke="#f472b6" stroke-width="2"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#be185d">第一部分</text>
+    <text x="70" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">美丽的渴望</text>
+    <text x="70" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">心理动机解析</text>
+  </g>
+  
+  <!-- Part 2: 从心动到行动 -->
+  <g transform="translate(50, 350)">
+    <rect x="0" y="0" width="140" height="80" rx="8" fill="url(#cardGradient)" stroke="#06b6d4" stroke-width="2"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#0891b2">第二部分</text>
+    <text x="70" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">从心动到行动</text>
+    <text x="70" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">决策迷宫</text>
+  </g>
+  
+  <!-- Part 3: 看不见的手 -->
+  <g transform="translate(610, 100)">
+    <rect x="0" y="0" width="140" height="80" rx="8" fill="url(#cardGradient)" stroke="#f59e0b" stroke-width="2"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d97706">第三部分</text>
+    <text x="70" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">看不见的手</text>
+    <text x="70" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">美丽标准塑造</text>
+  </g>
+  
+  <!-- Part 4: 手术刀落下之后 -->
+  <g transform="translate(610, 350)">
+    <rect x="0" y="0" width="140" height="80" rx="8" fill="url(#cardGradient)" stroke="#ef4444" stroke-width="2"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">第四部分</text>
+    <text x="70" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">手术刀落下之后</text>
+    <text x="70" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">期望与现实博弈</text>
+  </g>
+  
+  <!-- Part 5: 回归理性 -->
+  <g transform="translate(330, 480)">
+    <rect x="0" y="0" width="140" height="80" rx="8" fill="url(#cardGradient)" stroke="#10b981" stroke-width="2"/>
+    <text x="70" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#059669">第五部分</text>
+    <text x="70" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#1e293b">回归理性</text>
+    <text x="70" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#64748b">清醒决策者</text>
+  </g>
+  
+  <!-- Connection Lines -->
+  <line x1="190" y1="140" x2="350" y2="280" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="190" y1="390" x2="350" y2="320" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="610" y1="140" x2="450" y2="280" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="610" y1="390" x2="450" y2="320" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  <line x1="400" y1="350" x2="400" y2="480" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5,5"/>
+  
+  <!-- Key Concepts -->
+  <g transform="translate(250, 50)">
+    <text x="150" y="0" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">核心概念</text>
+    <text x="50" y="20" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• 认知偏误</text>
+    <text x="150" y="20" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• 社会比较</text>
+    <text x="250" y="20" font-family="Arial, sans-serif" font-size="10" fill="#64748b">• 营销心理</text>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(mkdir -p docs/part1 docs/part2 docs/part3 docs/part4 docs/part5 docs/stylesheets docs/javascripts)"
+    ],
+    "deny": []
+  }
+}

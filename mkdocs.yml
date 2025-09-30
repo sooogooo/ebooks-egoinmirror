@@ -1,0 +1,199 @@
+site_name: 医美消费心理学
+site_description: 探索医美消费背后的心理机制，帮助消费者做出理性决策
+site_author: 李滨 | 于晓冬
+site_url: https://pychology.ebook.bccsw.cn
+
+# Configuration
+theme:
+  name: material
+  language: zh
+  favicon: images/icons/favicon.png
+  logo: images/icons/logo.png
+  
+  # Color scheme
+  palette:
+    scheme: default
+    primary: blue grey
+    accent: pink
+  
+  # Features
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - content.tabs.link
+    - content.tooltips
+
+# Customization
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+  - javascripts/theme-switcher.js
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - javascripts/mermaid-config.js
+
+# Plugins
+plugins:
+  - search:
+      lang: zh
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      title: 目录
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - 首页: index.md
+  - 第一部分:
+    - 美丽的渴望：心理动机的深度解析: part1/index.md
+    - 序章 - 为什么我们需要医美消费的科学心理学: part1/prologue.md
+    - 第一章 - 镜中自我：我们为什么在意外表: part1/chapter1.md
+    - 第二章 - 社会比较：别人眼中的我与理想中的我: part1/chapter2.md
+    - 第三章 - 大脑的快捷方式：驱动消费的认知偏误: part1/chapter3.md
+    - 第四章 - 代际审美变迁：从"沉默一代"到"Z世代"的美丽观念: part1/chapter4.md
+  - 第二部分:
+    - 从心动到行动：医美消费的决策迷宫: part2/index.md
+    - 第五章 - 信息收集：在信息的海洋中如何避免溺水: part2/chapter5.md
+    - 第六章 - 人格特质：医美消费中的个性密码: part2/chapter6.md
+    - 第七章 - 消费心理的深层机制：从需求到行动: part2/chapter7.md
+    - 第八章 - 个体差异与个性化选择: part2/chapter8.md
+    - 第九章 - 咨询师与医生：权威光环下的心理博弈: part2/chapter9.md
+  - 第三部分:
+    - 看不见的手：谁在塑造我们的美丽标准: part3/index.md
+    - 第十章 - 营销的魔法：医美广告如何精准拿捏你: part3/chapter10.md
+    - 第十一章 - 屏幕里的完美幻象：社交媒体与审美趋同: part3/chapter11.md
+    - 第十二章 - 文化与社会：我们身处的美丽场域: part3/chapter12.md
+    - 第十三章 - 算法与推荐：个性化推送背后的心理操控: part3/chapter13.md
+    - 第十四章 - 消费文化的深层影响：美丽经济学: part3/chapter14.md
+    - 第十五章 - 媒体建构的美丽标准：从传统媒体到新媒体: part3/chapter15.md
+  - 第四部分:
+    - 手术刀落下之后：美丽期望与现实的博弈: part4/index.md
+    - 第十六章 - 恢复期的心理过山车：从期待到恐慌: part4/chapter16.md
+    - 第十七章 - 效果的评判：满意度由谁定义: part4/chapter17.md
+    - 第十八章 - 当结果不尽如人意：修复接纳与和解: part4/chapter18.md
+    - 第十九章 - 身份重构：新形象下的自我认同: part4/chapter19.md
+    - 第二十章 - 社交重启：重新融入社会生活: part4/chapter20.md
+  - 第五部分:
+    - 回归理性：做清醒的医美决策者: part5/index.md
+    - 第二十一章 - 你的医美决策自检清单: part5/chapter21.md
+    - 第二十二章 - 拥抱真实的自己：构建内在的自信: part5/chapter22.md
+    - 第二十三章 - 理性消费的智慧：避开医美消费陷阱: part5/chapter23.md
+    - 第二十四章 - 美丽的多元定义：重新定义个人美学: part5/chapter24.md
+    - 第二十五章 - 持续成长的美丽之路：终身美丽管理: part5/chapter25.md
+  - 专题文章:
+    - 医美消费心理学专题文章: articles/index.md
+    - 医美营销陷阱全解析: articles/marketing-traps/index.md
+  - 实用工具: tools.md
+  - 结语: conclusion.md
+
+# Extra
+extra:
+  homepage: https://pychology.ebook.bccsw.cn
+  social:
+    - icon: fontawesome/solid/envelope
+      link: mailto:bccsw@cqlhlg.work
+      name: 联系我们
+    - icon: fontawesome/solid/phone
+      link: tel:023-68726872
+      name: 联系电话
+  
+  # 结构化数据
+  schema:
+    type: Book
+    name: "医美消费心理学"
+    author: 
+      - "李滨"
+      - "于晓冬"
+    publisher: "重庆联合丽格科技有限公司"
+    description: "探索医美消费背后的心理机制，帮助消费者做出理性决策的专业指南"
+    keywords: "医美心理学,医美消费,心理分析,理性决策,美容心理,消费心理学"
+    
+  # 网站验证
+  verification:
+    google: "your-google-verification-code"
+    baidu: "your-baidu-verification-code"
+  
+  # Analytics
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+    feedback:
+      title: 这个页面对您有帮助吗？
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: 很有帮助
+          data: 1
+          note: >-
+            感谢您的反馈！
+        - icon: material/emoticon-sad-outline
+          name: 需要改进
+          data: 0
+          note: >-
+            感谢您的反馈！请通过邮件告诉我们如何改进。
+
+# Footer
+copyright: >
+  Copyright &copy; 2025 重庆联合丽格科技有限公司 |
+  <a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2024023473号</a> |
+  地址：重庆市渝中区临江支路28号 |
+  电话：023-68726872 |
+  邮箱：bccsw@cqlhlg.work

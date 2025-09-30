@@ -1,0 +1,46 @@
+<svg viewBox="0 0 500 350" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="500" height="350" fill="#f8f9fa"/>
+  
+  <!-- 中心人物 -->
+  <circle cx="250" cy="175" r="40" fill="#007bff" opacity="0.8"/>
+  <text x="250" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white" font-weight="bold">自我</text>
+  
+  <!-- 比较对象们 -->
+  <circle cx="150" cy="100" r="30" fill="#28a745"/>
+  <text x="150" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">同事A</text>
+  
+  <circle cx="350" cy="100" r="30" fill="#28a745"/>
+  <text x="350" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">朋友B</text>
+  
+  <circle cx="150" cy="250" r="30" fill="#ffc107"/>
+  <text x="150" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="black">网红C</text>
+  
+  <circle cx="350" cy="250" r="30" fill="#dc3545"/>
+  <text x="350" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">明星D</text>
+  
+  <!-- 比较箭头 -->
+  <path d="M 220 150 L 170 120" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 280 150 L 330 120" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 220 200 L 170 230" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M 280 200 L 330 230" stroke="#666" stroke-width="2" marker-end="url(#arrow)"/>
+  
+  <!-- 箭头标记 -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#666"/>
+    </marker>
+  </defs>
+  
+  <!-- 相似性圈 -->
+  <circle cx="250" cy="175" r="120" fill="none" stroke="#007bff" stroke-width="2" stroke-dasharray="5,5" opacity="0.5"/>
+  <text x="370" y="175" font-family="Arial, sans-serif" font-size="12" fill="#007bff">相似性圈</text>
+  
+  <!-- 功能标注 -->
+  <text x="50" y="50" font-family="Arial, sans-serif" font-size="14" fill="#28a745" font-weight="bold">自我评价</text>
+  <text x="50" y="320" font-family="Arial, sans-serif" font-size="14" fill="#ffc107" font-weight="bold">自我完善</text>
+  <text x="400" y="320" font-family="Arial, sans-serif" font-size="14" fill="#dc3545" font-weight="bold">自我提升</text>
+  
+  <!-- 标题 -->
+  <text x="250" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#212529">社会比较理论：我们如何定位自己</text>
+</svg>

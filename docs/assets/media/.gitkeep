@@ -1,0 +1,23 @@
+# 媒体文件夹
+
+此文件夹用于存储多媒体文件：
+- 音频文件（如朗读版本）
+- 视频文件（如讲解视频）
+- 动画文件
+- 交互式媒体
+
+支持的格式：
+- 音频：MP3, WAV, OGG
+- 视频：MP4, WEBM
+- 动画：GIF, WEBP
+
+使用方法：
+```html
+<audio controls>
+  <source src="assets/media/audio.mp3" type="audio/mpeg">
+</audio>
+
+<video controls>
+  <source src="assets/media/video.mp4" type="video/mp4">
+</video>
+```

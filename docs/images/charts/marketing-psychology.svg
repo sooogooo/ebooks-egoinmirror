@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="marketingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:0.9" />
+      <stop offset="50%" style="stop-color:#f59e0b;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:0.5" />
+    </linearGradient>
+    <radialGradient id="targetGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ef4444;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#dc2626;stop-opacity:0.4" />
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fefefe"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b">医美营销心理策略解析</text>
+  
+  <!-- Central Target: Consumer -->
+  <g transform="translate(350, 250)">
+    <circle cx="50" cy="50" r="50" fill="url(#targetGradient)" stroke="#ef4444" stroke-width="3"/>
+    <circle cx="50" cy="50" r="35" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="50" cy="50" r="20" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="50" cy="50" r="5" fill="#ffffff"/>
+    <text x="50" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">目标消费者</text>
+  </g>
+  
+  <!-- Scarcity Marketing -->
+  <g transform="translate(100, 100)">
+    <rect x="0" y="0" width="120" height="80" rx="12" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" filter="url(#glow)"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#92400e">稀缺性营销</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"限时优惠"</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"仅剩3个名额"</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"错过再等一年"</text>
+  </g>
+  
+  <!-- Authority Effect -->
+  <g transform="translate(580, 100)">
+    <rect x="0" y="0" width="120" height="80" rx="12" fill="#dbeafe" stroke="#3b82f6" stroke-width="2" filter="url(#glow)"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1d4ed8">权威效应</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"院长亲诊"</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"专家推荐"</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"明星同款"</text>
+  </g>
+  
+  <!-- Social Proof -->
+  <g transform="translate(100, 400)">
+    <rect x="0" y="0" width="120" height="80" rx="12" fill="#fce7f3" stroke="#ec4899" stroke-width="2" filter="url(#glow)"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#be185d">社会认同</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"万人选择"</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"好友推荐"</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"五星好评"</text>
+  </g>
+  
+  <!-- Fear Appeal -->
+  <g transform="translate(580, 400)">
+    <rect x="0" y="0" width="120" height="80" rx="12" fill="#fecaca" stroke="#ef4444" stroke-width="2" filter="url(#glow)"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">恐惧诉求</text>
+    <text x="60" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"青春不等人"</text>
+    <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"同龄人都在变美"</text>
+    <text x="60" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#1e293b">"错过黄金期"</text>
+  </g>
+  
+  <!-- Price Anchoring -->
+  <g transform="translate(300, 80)">
+    <ellipse cx="60" cy="30" rx="55" ry="25" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#15803d">价格锚定</text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">"原价38000，现价12800"</text>
+  </g>
+  
+  <!-- Reciprocity -->
+  <g transform="translate(300, 470)">
+    <ellipse cx="60" cy="30" rx="55" ry="25" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="60" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c3aed">互惠原理</text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">"免费咨询" "赠送面膜"</text>
+  </g>
+  
+  <!-- Marketing Funnel -->
+  <g transform="translate(50, 250)">
+    <path d="M0 0 L80 0 L60 40 L20 40 Z" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/>
+    <text x="40" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#c2410c">认知</text>
+    
+    <path d="M10 50 L70 50 L55 80 L25 80 Z" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/>
+    <text x="40" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#c2410c">兴趣</text>
+    
+    <path d="M20 90 L60 90 L50 110 L30 110 Z" fill="#fed7aa" stroke="#ea580c" stroke-width="2"/>
+    <text x="40" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#c2410c">行动</text>
+  </g>
+  
+  <!-- Emotional Triggers -->
+  <g transform="translate(650, 250)">
+    <circle cx="30" cy="30" r="25" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="30" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#15803d">😍</text>
+    <text x="30" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#15803d">渴望</text>
+    
+    <circle cx="30" cy="80" r="25" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+    <text x="30" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#dc2626">😰</text>
+    <text x="30" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#dc2626">恐惧</text>
+    
+    <circle cx="30" cy="130" r="25" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+    <text x="30" y="125" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d97706">😊</text>
+    <text x="30" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" font-weight="bold" fill="#d97706">快乐</text>
+  </g>
+  
+  <!-- Attack Vectors -->
+  <g stroke="#ef4444" stroke-width="2" fill="none" marker-end="url(#arrowhead)">
+    <path d="M220 140 Q300 200 350 250"/>
+    <path d="M580 140 Q500 200 450 250"/>
+    <path d="M220 440 Q300 380 350 350"/>
+    <path d="M580 440 Q500 380 450 350"/>
+    <path d="M355 110 Q380 180 390 250"/>
+    <path d="M355 500 Q380 420 390 350"/>
+  </g>
+  
+  <!-- Arrow Marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ef4444"/>
+    </marker>
+  </defs>
+  
+  <!-- Effectiveness Meter -->
+  <g transform="translate(50, 520)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">策略有效性：</text>
+    <rect x="0" y="10" width="200" height="15" rx="7" fill="#e5e7eb"/>
+    <rect x="0" y="10" width="160" height="15" rx="7" fill="#ef4444"/>
+    <text x="100" y="22" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff" font-weight="bold">80% 成功率</text>
+    <text x="0" y="45" font-family="Arial, sans-serif" font-size="9" fill="#64748b">多重策略叠加使用效果更佳</text>
+  </g>
+  
+  <!-- Consumer Defense -->
+  <g transform="translate(300, 520)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">消费者防护：</text>
+    <rect x="0" y="10" width="250" height="50" rx="8" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="10" fill="#0284c7" font-weight="bold">🛡️ 识别营销套路的关键</text>
+    <text x="10" y="45" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 冷静期：给自己24-72小时思考时间</text>
+    <text x="10" y="58" font-family="Arial, sans-serif" font-size="9" fill="#64748b">• 多方验证：不依赖单一信息源</text>
+  </g>
+  
+  <!-- Manipulation Intensity -->
+  <g transform="translate(600, 520)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e293b">操控强度：</text>
+    <g transform="translate(0, 15)">
+      <rect x="0" y="0" width="15" height="15" fill="#22c55e"/>
+      <text x="20" y="12" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">轻度 - 信息展示</text>
+    </g>
+    <g transform="translate(0, 35)">
+      <rect x="0" y="0" width="15" height="15" fill="#f59e0b"/>
+      <text x="20" y="12" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">中度 - 情感诉求</text>
+    </g>
+    <g transform="translate(0, 55)">
+      <rect x="0" y="0" width="15" height="15" fill="#ef4444"/>
+      <text x="20" y="12" font-family="Arial, sans-serif" font-size="9" fill="#1e293b">重度 - 恐惧营销</text>
+    </g>
+  </g>
+</svg>

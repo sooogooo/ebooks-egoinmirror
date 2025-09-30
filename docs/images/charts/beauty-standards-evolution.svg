@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="timelineGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fef3c7;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#fed7aa;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#fecaca;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#ddd6fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#dcfce7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-color="#00000015"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#fefefe"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e293b">美丽标准的历史演变</text>
+  
+  <!-- Timeline Base -->
+  <line x1="80" y1="100" x2="720" y2="100" stroke="url(#timelineGradient)" stroke-width="6"/>
+  
+  <!-- Time Periods -->
+  <g font-family="Arial, sans-serif" font-size="12" fill="#64748b" font-weight="bold">
+    <text x="120" y="130" text-anchor="middle">古代</text>
+    <text x="240" y="130" text-anchor="middle">近代</text>
+    <text x="360" y="130" text-anchor="middle">现代</text>
+    <text x="480" y="130" text-anchor="middle">当代</text>
+    <text x="600" y="130" text-anchor="middle">数字时代</text>
+  </g>
+  
+  <!-- Ancient Period -->
+  <g transform="translate(80, 150)">
+    <rect x="0" y="0" width="120" height="100" rx="8" fill="#fef3c7" stroke="#f59e0b" stroke-width="2" filter="url(#cardShadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#92400e">古代美学</text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">自然和谐</text>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 黄金比例</text>
+    <text x="60" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 对称美</text>
+    <text x="60" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 内在修养</text>
+  </g>
+  
+  <!-- Modern Period -->
+  <g transform="translate(200, 150)">
+    <rect x="0" y="0" width="120" height="100" rx="8" fill="#fed7aa" stroke="#ea580c" stroke-width="2" filter="url(#cardShadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c2410c">近代美学</text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">阶层分化</text>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 贵族风范</text>
+    <text x="60" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 服饰装扮</text>
+    <text x="60" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 社会地位</text>
+  </g>
+  
+  <!-- Contemporary Period -->
+  <g transform="translate(320, 150)">
+    <rect x="0" y="0" width="120" height="100" rx="8" fill="#fecaca" stroke="#ef4444" stroke-width="2" filter="url(#cardShadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#dc2626">现代美学</text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">媒体塑造</text>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 明星标准</text>
+    <text x="60" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 时尚潮流</text>
+    <text x="60" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 大众传播</text>
+  </g>
+  
+  <!-- Current Period -->
+  <g transform="translate(440, 150)">
+    <rect x="0" y="0" width="120" height="100" rx="8" fill="#ddd6fe" stroke="#8b5cf6" stroke-width="2" filter="url(#cardShadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#7c3aed">当代美学</text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">医美兴起</text>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 技术改造</text>
+    <text x="60" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 个性化</text>
+    <text x="60" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 可塑性</text>
+  </g>
+  
+  <!-- Digital Era -->
+  <g transform="translate(560, 150)">
+    <rect x="0" y="0" width="120" height="100" rx="8" fill="#dcfce7" stroke="#22c55e" stroke-width="2" filter="url(#cardShadow)"/>
+    <text x="60" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#15803d">数字时代</text>
+    <text x="60" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">算法塑造</text>
+    <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 滤镜美颜</text>
+    <text x="60" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• 虚拟完美</text>
+    <text x="60" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">• AI生成</text>
+  </g>
+  
+  <!-- Evolution Curve -->
+  <g>
+    <path d="M120 300 Q200 280 280 320 Q360 360 440 340 Q520 320 600 380" 
+          stroke="#8b5cf6" stroke-width="3" fill="none"/>
+    <text x="360" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#7c3aed">美丽标准复杂度演变</text>
+  </g>
+  
+  <!-- Key Characteristics by Era -->
+  <g transform="translate(50, 400)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e293b">各时代美丽特征对比</text>
+    
+    <g transform="translate(0, 30)">
+      <rect x="0" y="0" width="700" height="150" rx="8" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1"/>
+      
+      <!-- Headers -->
+      <text x="20" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">时代</text>
+      <text x="120" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">主要特征</text>
+      <text x="300" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">影响因素</text>
+      <text x="500" y="25" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#475569">实现方式</text>
+      
+      <!-- Ancient -->
+      <text x="20" y="50" font-family="Arial, sans-serif" font-size="10" fill="#92400e" font-weight="bold">古代</text>
+      <text x="120" y="50" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">自然和谐、内外兼修</text>
+      <text x="300" y="50" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">哲学思想、宗教信仰</text>
+      <text x="500" y="50" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">修身养性、天然护理</text>
+      
+      <!-- Modern -->
+      <text x="20" y="75" font-family="Arial, sans-serif" font-size="10" fill="#c2410c" font-weight="bold">近代</text>
+      <text x="120" y="75" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">阶层象征、服饰美学</text>
+      <text x="300" y="75" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">社会等级、经济地位</text>
+      <text x="500" y="75" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">奢华装扮、精致妆容</text>
+      
+      <!-- Contemporary -->
+      <text x="20" y="100" font-family="Arial, sans-serif" font-size="10" fill="#dc2626" font-weight="bold">现代</text>
+      <text x="120" y="100" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">标准化美、明星效应</text>
+      <text x="300" y="100" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">大众媒体、商业推广</text>
+      <text x="500" y="100" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">化妆品、时尚产业</text>
+      
+      <!-- Current -->
+      <text x="20" y="125" font-family="Arial, sans-serif" font-size="10" fill="#7c3aed" font-weight="bold">当代</text>
+      <text x="120" y="125" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">可塑美、个性化</text>
+      <text x="300" y="125" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">医美技术、社交媒体</text>
+      <text x="500" y="125" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">医美手术、微整形</text>
+      
+      <!-- Digital -->
+      <text x="20" y="150" font-family="Arial, sans-serif" font-size="10" fill="#15803d" font-weight="bold">数字</text>
+      <text x="120" y="150" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">虚拟美、算法美</text>
+      <text x="300" y="150" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">AI算法、虚拟现实</text>
+      <text x="500" y="150" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">滤镜美颜、数字修图</text>
+    </g>
+  </g>
+  
+  <!-- Trend Analysis -->
+  <g transform="translate(50, 300)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e293b">演变趋势分析：</text>
+    <g transform="translate(0, 20)">
+      <circle cx="5" cy="5" r="3" fill="#ef4444"/>
+      <text x="15" y="10" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">标准化程度：自然多样 → 统一标准 → 个性回归</text>
+    </g>
+    <g transform="translate(0, 35)">
+      <circle cx="5" cy="5" r="3" fill="#f59e0b"/>
+      <text x="15" y="10" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">技术依赖：天然护理 → 化妆品 → 医美技术 → 数字美化</text>
+    </g>
+    <g transform="translate(0, 50)">
+      <circle cx="5" cy="5" r="3" fill="#22c55e"/>
+      <text x="15" y="10" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">影响范围：精英阶层 → 大众普及 → 全民参与</text>
+    </g>
+    <g transform="translate(0, 65)">
+      <circle cx="5" cy="5" r="3" fill="#8b5cf6"/>
+      <text x="15" y="10" font-family="Arial, sans-serif" font-size="10" fill="#1e293b">变化速度：缓慢演进 → 快速更新 → 实时变化</text>
+    </g>
+  </g>
+  
+  <!-- Future Prediction -->
+  <g transform="translate(450, 300)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#22c55e">未来趋势预测：</text>
+    <rect x="0" y="10" width="250" height="80" rx="8" fill="#f0fdf4" stroke="#22c55e" stroke-width="1"/>
+    <text x="10" y="30" font-family="Arial, sans-serif" font-size="10" fill="#15803d" font-weight="bold">🔮 多元化回归</text>
+    <text x="15" y="45" font-family="Arial, sans-serif" font-size="9" fill="#64748b">接受不同类型的美丽表达</text>
+    <text x="10" y="60" font-family="Arial, sans-serif" font-size="10" fill="#15803d" font-weight="bold">🤖 AI个性化定制</text>
+    <text x="15" y="75" font-family="Arial, sans-serif" font-size="9" fill="#64748b">基于个人特征的美学方案</text>
+    <text x="10" y="90" font-family="Arial, sans-serif" font-size="10" fill="#15803d" font-weight="bold">🌱 可持续美学</text>
+  </g>
+  
+  <!-- Timeline Markers -->
+  <g fill="#64748b">
+    <circle cx="120" cy="100" r="4"/>
+    <circle cx="240" cy="100" r="4"/>
+    <circle cx="360" cy="100" r="4"/>
+    <circle cx="480" cy="100" r="4"/>
+    <circle cx="600" cy="100" r="4"/>
+  </g>
+</svg>

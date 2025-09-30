@@ -1,0 +1,12 @@
+# MkDocs 和相关插件
+mkdocs>=1.5.0
+mkdocs-material>=9.0.0
+mkdocs-minify-plugin>=0.7.0
+
+# 可选插件（如果需要的话）
+# mkdocs-sitemap-plugin>=0.3.0
+# mkdocs-meta-plugin>=0.1.0
+
+# Python 依赖
+Pygments>=2.15.0
+pymdown-extensions>=10.0.0
